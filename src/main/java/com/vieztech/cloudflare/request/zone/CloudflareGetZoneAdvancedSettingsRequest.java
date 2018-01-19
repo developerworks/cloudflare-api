@@ -4,10 +4,9 @@ import com.vieztech.cloudflare.api.CloudflareAccess;
 import com.vieztech.cloudflare.request.CloudflareGetRequest;
 
 /**
- * Available for only Business & Enterprise plan
  * 
  * @author Rohit Rehan
- *
+ * 
  */
 public class CloudflareGetZoneAdvancedSettingsRequest extends CloudflareGetRequest {
   public CloudflareGetZoneAdvancedSettingsRequest(CloudflareAccess api, String zoneId) {

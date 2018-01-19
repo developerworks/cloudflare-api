@@ -3,8 +3,7 @@ package com.vieztech.cloudflare.results;
 /**
  * 
  * @author Rohit Rehan
- * @company Vieztech Solutions
- * @date Dec 10, 2017
+ * <br><b>Vieztech Solutions</b>
  *
  */
 public class CloudflareError extends Exception {
