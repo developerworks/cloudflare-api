@@ -26,7 +26,7 @@ public class CloudflarePostRequest extends CloudflareRequest {
   }
 
   @Override
-  protected void add(String key, Object value) {
+  public void add(String key, Object value) {
     params.put(key, value);
   }
 
